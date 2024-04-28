@@ -7,6 +7,8 @@ font-family: 'Roboto', sans-serif;
 body
 {
 background: #000000;
+text-align: center;
+background-image: url("image/OP.jpg");
 }
 .container-fluid
 {
@@ -78,9 +80,6 @@ letter-spacing: 3px;
 }
 
 
-body {
-background-image: url("image/OP.jpg");
-}
 .soon{
     text-align: center;
     background-color: #000000;
