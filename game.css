@@ -134,3 +134,6 @@ transition-duration: .35s;
 button:hover {
 box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 }
+.upper{
+    background-color: #1e8449;
+}
