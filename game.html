@@ -4,42 +4,58 @@
 <html>
 <head>
 <title>Beast_Cut Games</title>
-<div class="upper"> 
-<div style="text-align: left;">
- <a href="https://satyum29.github.io/gamers/game.html"><button>Home</button></a>
- <a href="https://satyum29.github.io/gamers/info.html" ><button >info</button></a>
-<a href="https://satyum29.github.io/gamers/play.html" ><button >play online</button></a>
-<a href="https://satyum29.github.io/gamers/tutorial.html" ><button >Tutorial</button></a>
 
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div id="navbar">
+  <a href="#home" id="logo">Beast_Cut</a>
+  <div id="navbar-right" class="topnav" >   
+    <a href ="https://satyum29.github.io/gamers/game.html">Home</a>
+    <a href ="https://satyum29.github.io/gamers/info.html">info</a>
+    <a href ="https://satyum29.github.io/gamers/play.html">Play Online</a>
+    <a href ="https://satyum29.github.io/gamers/tutorial.html">Torrent</a>
+    <a href ="https://satyum29.github.io/gamers/tutorial.html">Tutorial</a>
+    <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()"> 
 </div>
 </div>
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.padding = "15px 10px";
+    document.getElementById("logo").style.fontSize = "20px";
+  } else {
+    document.getElementById("navbar").style.padding = "50px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
+</body>
+</html>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
-<div class="info">
-  
-        <p style="color: #000000;">_____________________________________</p>
-        <p style="color: #000000;">_____________________________________</p>
-        <p style="color: #000000;">_____________________________________</p>
-        <p ><h2 >download <a href="blob:https://www.utorrent.com/df2672ad-fd9a-4d6f-a554-0d50e57b5cec"  target="_blank" ><button ><h3 >UTorrent</h3></button></a>for .torrent files</h2></p>
-        <p style="color: #000000;">_____________________________________</p>
-        <p style="color: #000000;">_____________________________________</p>
-</div>
-        <style>
-                .info{
-                        color: #d6ffba;
-                       text-align: center;
-                }
-        </style>
 
+
+
+        
+<div class="boxg">
 <body>
-<div class="container-fluid">
-<div class="container">
-<div class="search">
-<h1>Games</h1>
-<input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
-</div>
+
+        <div class="container-fluid">
+                <div class="container">
+                <div class="search">
+                <h1>Games</h1>
+                
+                </div>
 
 <div class="product-list">
 
@@ -150,19 +166,8 @@
 <h2><a href="magnet:?xt=urn:btih:E0110D3FC68AD66CFA4851B86A6F05AC274E3DDD " target="_blank"> <button style="cursor: pointer;"><p > Download</p></button></a></h2>
 </div>
 
-
-</div>
-</div>
-</div>
-</div>
-<div class="Soon">
-        <p style="text-align: end;">  <h2>More Games Comming Soon...</h2>  </p>
-</div>
-</div>
-
-
 <script class="javascript">
-        function search() {
+                function search() {
     let filter = document.getElementById('find').value.toUpperCase();
     let item = document.querySelectorAll('.product');
     let l = document.getElementsByTagName('h3');
@@ -179,6 +184,18 @@
     }
     }
 </script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="Soon">
+        <p style="text-align: end;">  <h2>More Games Comming Soon...</h2>  </p>
+</div>
+</div>
+
+
+
 </body>
 </html>
 
