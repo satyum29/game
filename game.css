@@ -246,7 +246,7 @@ box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 }
 .info{
     color: #d6ffba;
-    padding-top: 100;
+    padding-top: 200;
 }
 .game{
     text-align: center;
@@ -257,4 +257,12 @@ box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 }
 .boxg{
     padding-top: 200;
+}
+.tor{
+  color: #d6ffba;
+  padding-top: 200;
+}
+.up{
+  color: #d6ffba;
+  text-align: left;
 }
