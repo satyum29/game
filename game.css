@@ -60,10 +60,12 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 text-align: left;
+
 }
 .container .product-list .product
 {
 margin-top: 30px;
+
 }
 .container .product-list .product h3
 {
@@ -265,4 +267,16 @@ box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
 .up{
   color: #d6ffba;
   text-align: left;
+}
+.gallery{
+  padding-top: 200;
+  color: #d6ffba;
+}
+
+.wait{
+  color: #d6ffba;
+  padding-top: 100;
+}
+.boxgal{
+  padding-top: 100;
 }
